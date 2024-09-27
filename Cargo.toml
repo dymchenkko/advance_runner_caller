@@ -1,0 +1,14 @@
+[package]
+name = "advance_runner_caller"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+advance_runner = {git = "https://github.com/dymchenkko/advance_runner"}
+rs-car = "0.4.1"
+cid = "0.11.0"
+cartesi-machine = { git = "https://github.com/cartesi/dave", rev = "68a068b135a42c10e254a116e2930539f1c28727" }
+ipfs-api-backend-hyper = { version = "0.6.0", features = ["with-send-sync"], default-features = false }
+async-std = { version = "1.12", features = ["attributes"] }
+futures-util = "0.3.28"
+clap = { version = "4.3.10", features = ["derive", "env", "string"] }
