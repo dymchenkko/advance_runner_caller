@@ -10,5 +10,7 @@ cid = "0.11.0"
 cartesi-machine = { git = "https://github.com/cartesi/dave", rev = "68a068b135a42c10e254a116e2930539f1c28727" }
 ipfs-api-backend-hyper = { version = "0.6.0", features = ["with-send-sync"], default-features = false }
 async-std = { version = "1.12", features = ["attributes"] }
-futures-util = "0.3.28"
 clap = { version = "4.3.10", features = ["derive", "env", "string"] }
+rs-car-ipfs = { git = "https://github.com/zippiehq/rs-car-ipfs" }
+hyper = { version = "0.14", features = ["full"] }
+futures = "0.3.28"
